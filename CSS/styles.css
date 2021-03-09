@@ -1,0 +1,49 @@
+/*Global*/
+
+/*Navigation*/
+.navigation,
+.navigation__right-side {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.logo {
+  max-width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation > * {
+  flex: 1;
+  text-align: center;
+}
+
+.navigation__right-side > * {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.products__link:hover,
+.products__link:hover a {
+  background-color: #7d949a;
+  color: #fff;
+}
+
+a span {
+  display: block;
+}
+
+.search__border {
+  border: #515548 solid;
+  border-radius: 1em;
+  padding: 3px 10px 3px 160px;
+  margin-right: 50px;
+  max-height: 90%;
+}
+
+.shopping-bag {
+  max-height: 3em;
+}
