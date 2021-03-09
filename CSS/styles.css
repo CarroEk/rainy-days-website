@@ -47,3 +47,18 @@ a span {
 .shopping-bag {
   max-height: 3em;
 }
+
+/*Footer*/
+
+footer {
+  background-color: #2b351664;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+.contact-us {
+  display: inline-block;
+}
