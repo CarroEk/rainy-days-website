@@ -1,8 +1,7 @@
 /*Global*/
 
 /*Navigation*/
-.navigation,
-.navigation__right-side {
+.navigation {
   display: flex;
   list-style: none;
   align-items: center;
@@ -19,11 +18,6 @@ a {
 .navigation > * {
   flex: 1;
   text-align: center;
-}
-
-.navigation__right-side > * {
-  flex: 1;
-  margin-right: 50px;
 }
 
 .products__link:hover,
