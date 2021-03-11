@@ -16,7 +16,8 @@ h1 {
 
 /*Navigation*/
 .navigation,
-.navigation__right-side {
+.navigation__right-side,
+main {
   display: flex;
   align-items: center;
 }
@@ -37,6 +38,8 @@ a {
 
 .products__link {
   padding: 5px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #515548;
 }
 
 .products__link:hover,
@@ -60,6 +63,20 @@ a span {
 .shopping-bag {
   max-height: 3em;
   margin: 0 40px;
+}
+
+.navigation-lines {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: aquamarine;
+}
+
+/*Main*/
+
+main a {
+  display: block;
+  text-align: center;
 }
 
 /*Footer*/
