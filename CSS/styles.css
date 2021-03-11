@@ -1,7 +1,17 @@
 /*Global*/
 @font-face {
-  font-family: "Sitka Small";
-  src: local("font/") format("truetype");
+  font-family: "sitka small";
+  src: url("../font/Fluent_SitkaSmall.ttf") format("truetype");
+}
+
+h1 {
+  font-family: "sitka small";
+  font-weight: lighter;
+  font-size: 2.3em;
+  text-decoration: underline;
+  color: #243d40;
+  letter-spacing: -0.2em;
+  word-spacing: -0.5em;
 }
 
 /*Navigation*/
@@ -51,6 +61,8 @@ a span {
   max-height: 3em;
   margin: 0 40px;
 }
+
+.
 
 /*Footer*/
 
