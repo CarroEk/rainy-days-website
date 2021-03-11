@@ -1,4 +1,8 @@
 /*Global*/
+@font-face {
+  font-family: "Sitka Small";
+  src: local("font/") format("truetype");
+}
 
 /*Navigation*/
 .navigation,
