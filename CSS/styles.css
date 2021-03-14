@@ -4,6 +4,15 @@
   src: url("../font/Fluent_SitkaSmall.ttf") format("truetype");
 }
 
+.cta {
+  background-color: #d99e6a;
+  border: solid #537373;
+  color: #1a2c2e;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
   font-family: "sitka small";
   font-weight: lighter;
@@ -24,6 +33,7 @@ main {
 
 .logo {
   max-width: 50%;
+  position: relative;
 }
 
 a {
@@ -65,18 +75,20 @@ a span {
   margin: 0 40px;
 }
 
-.navigation-lines {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  background-color: aquamarine;
-}
-
 /*Main*/
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
 
 main a {
   display: block;
   text-align: center;
+}
+main > * {
+  flex: 1;
 }
 
 /*Footer*/
