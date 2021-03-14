@@ -6,11 +6,12 @@
 
 .cta {
   background-color: #d99e6a;
-  border: solid #537373;
+  border: solid #537373 0.1em;
   color: #1a2c2e;
   text-transform: uppercase;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: #80808080 0px 5px 6px;
 }
 
 h1 {
@@ -78,7 +79,6 @@ a span {
 /*Main*/
 
 main {
-  max-width: 1000px;
   margin: auto;
   padding-top: 50px;
 }
@@ -89,6 +89,12 @@ main a {
 }
 main > * {
   flex: 1;
+}
+
+.cta {
+  max-width: 30%;
+  margin: auto;
+  border-radius: 5px;
 }
 
 /*Footer*/
